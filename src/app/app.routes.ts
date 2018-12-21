@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     path: 'cart',
     component: CartComponent
   }, {
-    path: '**',
+    path: 'contacts',
     component: LoginComponent
   }
 ];
