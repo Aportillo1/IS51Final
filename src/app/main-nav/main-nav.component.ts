@@ -13,7 +13,7 @@ export class MainNavComponent implements OnInit {
   constructor(private router: Router, private toastService: ToastService) { }
 
   async ngOnInit() {
-    this.inventory = await this.loadInventoryFromJson();
+    // this.inventory = await this.loadInventoryFromJson();
     // console.log('this.contacts from ngOninit...', this.contacts)
   }
   showAbout() {
